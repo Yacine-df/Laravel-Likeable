@@ -14,12 +14,22 @@
             "email": "ycn.diaf@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
-    "require": {},
+    "require": {
+        "illuminate/support": "^11.20"
+    },
     "require-dev": {
-        "phpunit/phpunit": "^11.3"
+        "phpunit/phpunit": "^11.3",
+        "orchestra/testbench": "^9.3"
     },
     "scripts": {
         "test": "./vendor/bin/phpunit"
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel":{
+            "providers":[
+                "Yacinediaf\\LaravelLikeable\\ServiceProvider"
+            ]
+        }
     }
 }
