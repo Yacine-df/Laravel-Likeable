@@ -1,0 +1,21 @@
+{
+    "name": "yacinediaf/laravel-likeable",
+    "description": "Laravel package that offers the functionality of liking different type of models e.g like post, comment, video,..",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Yacinediaf\\LaravelLikeable\\": "src/",
+            "Yacinediaf\\LaravelLikeable\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yacine-df",
+            "email": "ycn.diaf@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "phpunit/phpunit": "^11.3"
+    }
+}
